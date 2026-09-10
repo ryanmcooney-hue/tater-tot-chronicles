@@ -1,24 +1,10 @@
-TATER TOT CHRONICLES — FINAL QA FIX
+FINAL SITE FIX PACKAGE
 
-Replace these files in the root of your tater-tot-chronicles repo:
-- index.html
-- snapshots.html
-- mcgee-story.html
-- career.html
-- archive.html
-- recaps.html
-- photos.html
-- issue.html
+Replace the included HTML files in the root of your tater-tot-chronicles repository.
+Copy the included files from assets/ into your existing assets/ folder; do not delete your existing assets.
 
-Copy the two files inside assets/ into your existing assets folder. Do not delete the rest of your assets.
+This package includes the final QA fixes plus two homepage interaction fixes:
+- Browse the PACIFIC archive now opens archive.html.
+- April and May homepage recap graphics now open their full-size PNG versions in a new tab.
 
-Fixes included:
-1. Navigation now uses the same dedicated page destinations everywhere.
-2. Snapshots is in the navigation on every site page, including issue pages.
-3. Stephen's Field homepage block stacks correctly on phones.
-4. McGee Story below-the-fold images lazy-load for faster page performance.
-5. The two linked homepage newspaper thumbnails now have descriptive alt text.
-
-No story text, captions, photos, layout content, or PACIFIC material was changed.
-
-After copying: Commit to main -> Push origin -> wait for GitHub Pages -> Ctrl+F5.
+Then commit to main, push origin, wait for GitHub Pages to deploy, and Ctrl+F5.
