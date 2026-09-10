@@ -94,12 +94,28 @@ footer .inner{max-width:1320px;margin:auto;padding:0 24px;display:flex;justify-c
 .snapshot-copy{padding:18px 20px 20px}
 .snapshot-copy h3{font-family:Georgia,serif;color:var(--navy2);font-size:25px;margin:4px 0 7px}
 .snapshot-copy p{font-size:14px;line-height:1.45;color:#52616d;margin:0}
+
+/* Mobile-only paired lead: family story + newest PACIFIC */
+.mobile-lead-pair{display:none}
+.mobile-lead-card{display:block;background:#fff;border:1px solid #d2d7da;text-decoration:none;overflow:hidden;box-shadow:0 1px 0 rgba(3,27,52,.04)}
+.mobile-lead-media{width:100%;aspect-ratio:4/5;display:block;background:#f3f1ea}
+.mobile-lead-media.family{object-fit:cover;object-position:center}
+.mobile-lead-media.issue{object-fit:contain;padding:4px}
+.mobile-lead-copy{padding:11px 10px 12px}
+.mobile-lead-copy .kicker{font-size:9px;letter-spacing:.1em;line-height:1.25}
+.mobile-lead-copy h2{font-family:Georgia,'Times New Roman',serif;color:var(--navy2);font-size:20px;line-height:1.05;margin:4px 0 5px}
+.mobile-lead-copy p{font-size:11px;line-height:1.3;color:#52616d;margin:0}
+.mobile-lead-copy .tap{display:block;margin-top:8px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--green)}
 @media(max-width:1000px){
   .hero-content{grid-template-columns:1fr}.hero-note{justify-self:start;margin-top:40px}
   .hero-content h1{font-size:66px}.timeline{grid-template-columns:repeat(4,1fr);row-gap:16px}
   .lead-grid,.latest-grid{grid-template-columns:1fr}.chapters{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:650px){
+
+  .mobile-lead-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px 12px;background:#f6f2e8;border-bottom:1px solid #d9d5ca}
+  .family-hero{display:none}
+  #latest{display:none}
   .family-hero{min-height:620px}.hero-content{min-height:620px;padding-top:70px}
   .hero-content h1{font-size:49px}.hero-content .dek{font-size:20px}
   .timeline{grid-template-columns:repeat(2,1fr)}
@@ -127,6 +143,28 @@ footer .inner{max-width:1320px;margin:auto;padding:0 24px;display:flex;justify-c
     <a href="snapshots.html">Snapshots</a>
   </div></nav>
 </header>
+
+
+<section class="mobile-lead-pair" aria-label="Featured stories">
+  <a class="mobile-lead-card" href="mcgee-story.html">
+    <img class="mobile-lead-media family" src="assets/home-hero-family.webp" alt="Tater Tot McGee on the McGee family potato farm" decoding="async" fetchpriority="high">
+    <div class="mobile-lead-copy">
+      <div class="kicker">The story behind the name</div>
+      <h2>The McGee Family Story</h2>
+      <p>Family, potatoes and six generations of baseball.</p>
+      <span class="tap">Read story →</span>
+    </div>
+  </a>
+  <a class="mobile-lead-card" href="issue.html?issue=10">
+    <img class="mobile-lead-media issue" src="assets/home-pacific-issue-10.webp" alt="PACIFIC Issue 10 — Call Answered" decoding="async" fetchpriority="high">
+    <div class="mobile-lead-copy">
+      <div class="kicker">Latest PACIFIC · Issue 10</div>
+      <h2>CALL ANSWERED</h2>
+      <p>From Arkansas to Tacoma.</p>
+      <span class="tap">Open issue →</span>
+    </div>
+  </a>
+</section>
 
 <section class="family-hero">
   <img class="bg" src="assets/home-hero-family.webp" alt="Tater Tot McGee on the McGee family potato farm" decoding="async" fetchpriority="high">
