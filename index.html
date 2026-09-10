@@ -85,6 +85,15 @@ footer .inner{max-width:1320px;margin:auto;padding:0 24px;display:flex;justify-c
 .recap img{width:100%;display:block}
 .recap .rcopy{padding:20px}
 .recap h3{font-family:Georgia,serif;color:var(--navy2);font-size:25px;margin:0 0 6px}
+
+.snapshot-intro{font-family:Georgia,serif;font-size:18px;line-height:1.55;color:#52616d;max-width:780px;margin:0 0 24px}
+.snapshots-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.snapshot-card{border:1px solid #d2d7da;background:white;overflow:hidden}
+.snapshot-card a{display:block;text-decoration:none}
+.snapshot-card img{width:100%;display:block;aspect-ratio:3/2;object-fit:cover}
+.snapshot-copy{padding:18px 20px 20px}
+.snapshot-copy h3{font-family:Georgia,serif;color:var(--navy2);font-size:25px;margin:4px 0 7px}
+.snapshot-copy p{font-size:14px;line-height:1.45;color:#52616d;margin:0}
 @media(max-width:1000px){
   .hero-content{grid-template-columns:1fr}.hero-note{justify-self:start;margin-top:40px}
   .hero-content h1{font-size:66px}.timeline{grid-template-columns:repeat(4,1fr);row-gap:16px}
@@ -96,7 +105,7 @@ footer .inner{max-width:1320px;margin:auto;padding:0 24px;display:flex;justify-c
   .timeline{grid-template-columns:repeat(2,1fr)}
   .chapters{grid-template-columns:1fr 1fr}.chapter{min-height:220px}
   .issue-feature{grid-template-columns:1fr}.issue-feature img{min-height:0}
-  .recaps{grid-template-columns:1fr}.mini{grid-template-columns:115px 1fr}.mini img{width:100px;height:80px}
+  .recaps,.snapshots-grid{grid-template-columns:1fr}.mini{grid-template-columns:115px 1fr}.mini img{width:100px;height:80px}
 }
 </style>
 </head>
@@ -114,6 +123,7 @@ footer .inner{max-width:1320px;margin:auto;padding:0 24px;display:flex;justify-c
     <a href="#archive">PACIFIC Archive</a>
     <a href="#recaps">Stats & Recaps</a>
     <a href="#photos">Photos</a>
+    <a href="#snapshots">Snapshots</a>
   </div></nav>
 </header>
 
@@ -210,6 +220,27 @@ footer .inner{max-width:1320px;margin:auto;padding:0 24px;display:flex;justify-c
         <div class="mini"><img src="assets/home-pacific-issue-9-thumb.webp" alt="" decoding="async" loading="lazy"><div><div class="kicker">Issue 9 · May 2026</div><h4>Tater Tot Stays Hot and Comes Up Clutch</h4><p>The first professional walk-off hit closes May.</p></div></div>
         <div class="mini"><img src="assets/home-pacific-issue-1-thumb.webp" alt="" decoding="async" loading="lazy"><div><div class="kicker">Issue 1 · April 2026</div><h4>McGee Makes Pro Debut</h4><p>The PACIFIC professional archive begins in Midland.</p></div></div>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="snapshots" style="background:#f3f1ea">
+  <div class="wrap">
+    <div class="kicker">Personal moments from the season</div>
+    <h2 class="section-title">Season's Snapshots</h2>
+    <p class="snapshot-intro">A scrapbook of family moments, milestones and memories from Tater Tot McGee's baseball journey. New snapshots can be added here as the season continues.</p>
+    <div class="snapshots-grid">
+      <article class="snapshot-card">
+        <a href="assets/season-snapshot-first-pro-game.png" target="_blank" rel="noopener">
+          <img src="assets/home-season-snapshot-first-pro-game.webp" alt="Season's Snapshots — the McGees after Tater's first professional game" decoding="async" loading="lazy">
+        </a>
+        <div class="snapshot-copy">
+          <div class="kicker">First professional game</div>
+          <h3>The McGees at the Ballpark</h3>
+          <p>Dad, Mom, Tater, his girlfriend, sister and brother after Tater's first professional game.</p>
+        </div>
+      </article>
     </div>
   </div>
 </section>
