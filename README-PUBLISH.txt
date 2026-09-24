@@ -6,8 +6,8 @@ Pages:
 - index.html — homepage
 - mcgee-story.html — full web-readable family feature
 - career.html — career timeline
-- archive.html — all 10 PACIFIC issues
-- issue.html?issue=1 through 10 — issue viewer
+- archive.html — all 11 PACIFIC issues
+- issue.html?issue=1 through 11 — issue viewer
 - recaps.html — April/May recaps and prospect watch
 - photos.html — family/photo archive
 
