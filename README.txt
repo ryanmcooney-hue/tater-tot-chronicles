@@ -33,3 +33,9 @@ When adding Issue 14, 15, etc.:
 Do not hand-edit issue-N.html; regeneration replaces them. For layout changes,
 edit issue.html and regenerate. Old issue.html?issue=N links remain functional.
 Share issue-N.html for static social previews.
+
+DEFAULT FOR EVERY NEW ISSUE
+
+Also update both homepage latest-issue features, add the featured photo and caption
+to photos.html, and update stats.html season totals plus the new series row.
+All three updates are required whenever an issue is requested. See AGENTS.md.
