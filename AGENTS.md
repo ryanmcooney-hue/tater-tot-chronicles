@@ -7,3 +7,5 @@ Whenever the user asks to add a PACIFIC issue, complete all three updates by def
 3. Update stats.html with the published season totals and a new series row. Attribute the source; flag inconsistent printed rates rather than silently changing them. Do not invent unreported statistics or expose unpublished future games.
 
 Check local links/assets and generated navigation before delivery. Do not hand-edit generated issue-N.html files.
+
+Explicit user exceptions override this default. Issue 16 covers the Futures Game: add its issue and gallery photo, but do not add its exhibition results to stats.html or season totals.
