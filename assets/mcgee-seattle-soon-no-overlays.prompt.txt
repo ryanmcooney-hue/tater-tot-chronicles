@@ -1,0 +1,5 @@
+Remove ONLY the two broadcast/game HUD overlays from this screenshot:
+1. Entire lower-left Tater Tot McGee player portrait/stat graphic, including portrait, large red R backdrop, border, name, TRIPLE-A and 1ST HR panel.
+2. Entire lower-right HOME RUN graphic and its rectangular backdrop.
+Inpaint only areas covered by these overlays with plausible continuation of the existing videogame crowd, blue stadium seats, bodies and clothing directly around them. Preserve ALL other existing image content exactly, including faces, spectators, gestures, lighting, original videogame screenshot rendering, framing and aspect ratio. Do not enhance, restyle, sharpen, recolor, crop or redesign scene.
+CRITICAL: The physical fan-held sign near upper center reading “MCGEE WE'LL SEE YOU IN SEATTLE SOON!” is PART OF THE SCENE, NOT a broadcast bug. Preserve this sign and its lettering exactly. Preserve in-scene clothing logos. No edits anywhere outside the two HUD overlays. Output the same screenshot without these two on-screen graphics.
