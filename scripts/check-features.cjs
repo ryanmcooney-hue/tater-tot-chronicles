@@ -6,7 +6,7 @@ const { chromium } = require('C:/Users/user/.cache/codex-runtimes/codex-primary-
   page.on('pageerror', e => errors.push(e.message));
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 900 });
-    for (const path of ['features.html', 'call-up.html', 'index.html']) {
+    for (const path of ['features.html', 'call-up.html', 'mcgee-story.html', 'index.html']) {
       await page.goto(require('node:url').pathToFileURL(require('node:path').resolve(path)).href);
       await page.screenshot({ path: 'outputs/' + path.replace('.html', '') + '-' + width + '.png' });
       const result = await page.evaluate(() => ({
