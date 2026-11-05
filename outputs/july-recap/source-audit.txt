@@ -1,0 +1,38 @@
+Source: C:\Users\user\Downloads\Tater Game Log (4).xlsx
+Sheet: AAA 2026; rows 22–41. July 1–26 only. No other sheet included.
+
+{
+  "AB": 89,
+  "R": 7,
+  "H": 25,
+  "RBI": 15,
+  "BB": 2,
+  "SO": 7,
+  "HR": 4,
+  "2B": 4,
+  "3B": 0,
+  "SB": 0,
+  "HBP": 0,
+  "SF": 1
+}
+{
+  "AVG": 0.2808988764044944,
+  "OBP": 0.29347826086956524,
+  "SLG": 0.4606741573033708,
+  "OPS": 0.754152418172936
+}
+
+AVG = H/AB. OBP = (H+BB+HBP)/(AB+BB+HBP+SF). SLG = (H+2B+2*3B+3*HR)/AB. OPS = OBP+SLG. All rates calculated from counting stats; no averaging of game rates.
+
+Stored rate discrepancies:
+Row 25 (July 04) OPS: stored 1.200000; calculated 2.600000
+Row 32 (July 12) OPS: stored 0.650000; calculated 0.900000
+Row 35 (July 19) OPS: stored 1.000000; calculated 1.250000
+Row 36 (July 21) OPS: stored 1.200000; calculated 2.400000
+Row 38 (July 23) OPS: stored 0.800000; calculated 1.000000
+
+Game of the Month: July 4, 10 total bases (highest July AAA total), two HR and a double. July 21: nine total bases and three RBI.
+Final six games: 9-for-28 (.321). Seven-game hitting streak July 18–25.
+Canon: Section 6 confirms July 4 and July 21 two-HR games. Local Canon predates Seattle promotion. Call-up conclusion supplied explicitly by user; no exact promotion date asserted.
+Game results/scores are not present in the source; none invented or included.
+Design: April recap PNG and April remaster Affinity master; current PACIFIC logo preserved.

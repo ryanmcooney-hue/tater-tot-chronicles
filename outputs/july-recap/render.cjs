@@ -1,0 +1,3 @@
+const {chromium}=require('C:/Users/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const {pathToFileURL}=require('node:url');const path=require('node:path');
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true});const p=await b.newPage({viewport:{width:1536,height:1024},deviceScaleFactor:1});await p.goto(pathToFileURL(path.resolve(__dirname,'PACIFIC July 2026 Recap.svg')).href);await p.screenshot({path:path.join(__dirname,'PACIFIC July 2026 Recap.png')});console.log(await p.locator('text').evaluateAll(els=>els.filter(e=>{const b=e.getBBox();return b.x<0||b.y<0||b.x+b.width>1536||b.y+b.height>1024}).map(e=>e.textContent)));await b.close()})();
